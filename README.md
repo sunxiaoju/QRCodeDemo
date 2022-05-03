@@ -1,0 +1,1 @@
+## 基于一个jsQR和QRCode实现的一个简单的react版本二维码扫描demo

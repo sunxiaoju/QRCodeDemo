@@ -1,0 +1,75 @@
+.car-inspection-cert {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.car-inspection-cert .section-header {
+  margin: auto 12px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.car-inspection-cert .section-content {
+
+  text-align: center;
+}
+
+.car-inspection-cert .section-content span {
+  width: 80%;
+}
+
+.car-inspection-cert .section-canvas canvas {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+
+.qr-image-default {
+  margin: 5px 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.qr-image-default .qr-image {
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.qr-image-default img {
+  margin-right: 5px;
+  width: 100%;
+  border-style: none;
+}
+
+.qr-image-default .empty {
+  width: 7px;
+}
+
+.qr-image-default .qr-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding-left: 5px;
+}
+
+.qr-image-default .qr-circle {
+  padding: 5px;
+  padding-right: 0;
+  margin-right: 5px;
+  border: 1px solid red;
+}
+.qr-image-last {
+  margin-right: 0;
+}
